@@ -1,0 +1,239 @@
+.container {
+    margin: 0;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; 
+    background-image: url("photo3.jpg");
+    background-repeat : no-repeat; 
+    background-position : center;
+    background-size :cover;
+    margin-top: 10px;
+}
+
+
+section {
+    width: 750px;
+    background-color: transparent;
+    border: 3px solid #56524d; 
+    border-radius: 20px; 
+    backdrop-filter: blur(55px);
+    display: flex;
+    Justify-content :center;
+    align-items: center;
+    padding: 40px 35px 55px;
+}
+
+h1 {
+    color : #2d8284;
+    font-size: 30px;
+    text-align: center;
+}
+
+.inputbox {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;   
+}
+
+.inputtext {
+    position: relative;
+    width: 49%;
+    height: 50px;
+    margin: 13px 0;
+    border-bottom : 2px solid #56524d;
+}
+
+.inputtext input{
+    width : 100%;
+    height: 100%;
+    background: transparent;
+    border: none; 
+    outline: none;
+    font-size: 16px;
+    padding: 15px 15px 15px 40px; 
+    color: #56524d;
+}
+
+.inputbox i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 18px;
+}
+
+label {
+    display: inline-block;
+    margin :10px 0 23px;
+}
+    
+label input {
+    margin-right: 5px;
+}
+
+button {
+    color :#d8cfc4 ;
+    width: 100%;
+    height: 35px; 
+    border-radius: 48px;
+    background-color : #2d8284;
+    border: none;
+    cursor : pointer ;
+    font-size: 25px;
+    font-weight: 600;
+    transition: all 0.4s ease;
+}
+
+button:hover {
+    background-color: #56c2bb;
+}
+
+.connect {
+    font-size: 15px; 
+    color: #56524d ;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+    
+.connect p a {
+    text-decoration: none;
+    color: #56c2bb; 
+    font-weight: 600;
+}
+    
+.connect p a:hover {
+    text-decoration : underline;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    background-color: #d8cfc4;
+    justify-content: space-between;
+    height: 150px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+    width: 100%;
+}
+
+#logo{
+    height: 145px;
+    margin-left: 120px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+#navbar li{
+    padding: 0px 15px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    margin-left:50px;
+    font-size: 18px;
+    color: #2d8284;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color:#56c2bb;
+}
+
+#navbar li a.active::after,
+#navbar li a:hover::after{
+    content: "";
+    width: 20%;
+    height: 2px;
+    background:#56c2bb;
+    position: absolute;
+    bottom: -4px;
+    left: 65px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #d8cfc4;
+    font-family: "poppins", sans-serif;
+    height: 350px;
+    align-items: center;
+    padding:10px 100px 30px 100px ;
+}
+
+footer .col{
+    display:flex ;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    height: 300px;
+}
+
+footer .logo2{
+    margin-bottom: -30px;
+    height: 150px;
+}
+
+footer h4{
+    font-size: 16px;
+    text-decoration: underline;
+    color: #2d8284;
+}
+
+footer p{
+    font-size: 14px;
+    margin: 0 0 8px 0 ;
+    color: #56524d;
+}
+
+footer a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #56524d;
+    margin-bottom:10px ;
+}
+
+footer .follow{
+   margin-top : 5px;
+}
+
+footer .follow i{
+    padding-right: 5px;
+    color: #56c2bb;
+    cursor: pointer;
+}
+
+footer .install .row img{
+    border : 1px solid #56c2bb;
+    border-radius: 6px;
+}
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover{
+    color: #2d8284;
+}
+
+footer a:hover{
+    color: #56c2bb;
+}
+
+footer .hashtag{
+    width: 100%;
+    text-align: center;
+}
+
+footer .hashtag p{
+    font-size: 20px;
+    color: #56c2bb;
+}
